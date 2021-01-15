@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 6
     },
     {
       "id": 2,
@@ -47,6 +47,24 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "asdf",
+      "image": "asdfasdf",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "rex",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FToy-Story-Talking-Rex-Figure%2Fdp%2FB07FX8VZT1&psig=AOvVaw1EhtzxatvWy_i1XDs6oDkE&ust=1610836254962000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiMn-n-nu4CFQAAAAAdAAAAABAD",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "rex",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81aZXb7l5sL._AC_SL1500_.jpg",
+      "likes": 0,
+      "id": 11
     }
   ]
 }
