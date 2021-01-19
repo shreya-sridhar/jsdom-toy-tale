@@ -41,6 +41,12 @@ function postToy(toy){
   .catch(error => console.log(error))
 }
 
+function loadToy(toy){
+  let toyele = document.getElementById(toy.id)
+  let pTag = toyele.getElementsByTagName('p')[0]
+  pTag.innerHTML ++;
+}
+  
 function patchToy(toy){
   fetch(`http://localhost:3000/toys/${toy.id}`,{
       method: 'PATCH',
@@ -51,7 +57,7 @@ function patchToy(toy){
   })
   .then(res => res.json())
   .then(toy => {
-      renderToys(toy)
+      loadToy(toy)
   })
   .catch(error => console.log(error))
 }
